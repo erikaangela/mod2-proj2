@@ -1,7 +1,9 @@
-/* buttons, 3images, text colors/font, icons, aligning */
-
 .bg-lime {
   background-color: #9ACD32;
+}
+
+.home-lime {
+  color: #9ACD32 !important;
 }
 
 .bg-black {
@@ -14,6 +16,10 @@ img {
 
 img[src*="3"] {
   height: 200px;
+}
+
+h1, h2, h3, h5 {
+  font-family: "Open Sans", Helvetica;
 }
 
 .bg-image {
@@ -36,6 +42,7 @@ img[src*="3"] {
 .bg-image-3 { /* ADDING ALT? */
   background-image: url(images/3procrastinate.jpg);
 }
+
 
 .btn-primary {
   background-color: #9ACD32 !important;
