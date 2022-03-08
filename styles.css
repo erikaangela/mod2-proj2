@@ -5,3 +5,7 @@
 .bg-black {
   background-color: #222222;
 }
+
+img {
+  width: 100%;
+}
