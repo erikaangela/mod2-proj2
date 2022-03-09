@@ -15,7 +15,7 @@
 }
 
 .bg-black {
-  background-color: #222222;
+  background-color: #222;
 }
 
 img {
@@ -38,11 +38,6 @@ h1, h2, h3, h5 {
   height: 100vh;
   width: 100vw;
 }
-
-/* img[src*="3"] {
-  height: 30vh;
-  width: 30vw;
-} */
 
 .img-row {
   overflow: hidden;
@@ -105,6 +100,11 @@ h1, h2, h3, h5 {
   color: white;
 }
 
+.btn-light.outline{
+  border: 5px solid #FFFFFF !important;
+  color: black;
+}
+
 .btn-primary:hover {
   background-color: forestgreen !important;
   border-color: forestgreen !important;
@@ -112,40 +112,18 @@ h1, h2, h3, h5 {
   color: white !important;
 }
 
-.btn-primary:focus, .btn-primary.focus {
+.btn-light:hover {
+  background-color: #CCC !important;
+  border-color: #CCC !important;
+  border: 5px solid #CCC !important;
+  color: black !important;
+}
+
+.btn-primary:focus, .btn-primary.focus, .btn-light:focus, .btn-light.focus {
   box-shadow: none !important;
 }
 
-.btn-primary:active, .btn-primary.active {
+.btn-primary:active, .btn-primary.active, .btn-light:active, .btn-light.active {
   background-color: #337ab7 !important;
   border: 5px solid #2e6da4 !important;
 }
-
-/* https://stackoverflow.com/questions/46697652/changing-color-of-bootstrap-button BUTTON PROPERTIES */
-/* .btn-primary {
-  color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
-}
-
-.btn-primary:hover {
-  color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc;
-}
-
-.btn-primary:focus, .btn-primary.focus {
-  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
-}
-
-.btn-primary.disabled, .btn-primary:disabled {
-  background-color: #007bff;
-  border-color: #007bff;
-}
-
-.btn-primary:active, .btn-primary.active,
-.show > .btn-primary.dropdown-toggle {
-  background-color: #0069d9;
-  background-image: none;
-  border-color: #0062cc;
-} */
