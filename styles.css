@@ -2,8 +2,16 @@
   background-color: #9ACD32;
 }
 
-.home-lime {
+.lime {
   color: #9ACD32 !important;
+}
+
+.grey {
+  color: #777;
+}
+
+.off-white {
+  color: #FFFFFFB3;
 }
 
 .bg-black {
@@ -15,7 +23,7 @@ img {
 }
 
 h1, h2, h3, h5 {
-  font-family: "Open Sans", Helvetica;
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
 .fa {
@@ -31,12 +39,23 @@ h1, h2, h3, h5 {
   width: 100vw;
 }
 
-img[src*="3"] {
-  height: 200px;
+/* img[src*="3"] {
+  height: 30vh;
+  width: 30vw;
+} */
+
+.img-row {
+  overflow: hidden;
 }
 
 .bg-image-1 { /* ADDING ALT? */
   background-image: url(images/3unleash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: all 0.2s;
+  height: 30vh;
+  width: 30vw;
 }
 
 .bg-image-1:hover {
@@ -46,6 +65,12 @@ img[src*="3"] {
 
 .bg-image-2 { /* ADDING ALT? */
   background-image: url(images/3synergize.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: all 0.2s;
+  height: 30vh;
+  width: 30vw;
 }
 
 .bg-image-2:hover {
@@ -54,6 +79,12 @@ img[src*="3"] {
 
 .bg-image-3 { /* ADDING ALT? */
   background-image: url(images/3procrastinate.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: all 0.2s;
+  height: 30vh;
+  width: 30vw;
 }
 
 .bg-image-3:hover {
