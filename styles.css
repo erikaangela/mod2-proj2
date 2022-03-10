@@ -49,8 +49,8 @@ h1, h2, h3, h5 {
   background-size: cover;
   background-position: center;
   transition: all 0.2s;
-  height: 30vh;
-  width: 30vw;
+  /* height: 30vh; */
+  width: 100%;
 }
 
 .bg-image-1:hover {
@@ -64,8 +64,8 @@ h1, h2, h3, h5 {
   background-size: cover;
   background-position: center;
   transition: all 0.2s;
-  height: 30vh;
-  width: 30vw;
+  /* height: 30vh; */
+  width: 100%;
 }
 
 .bg-image-2:hover {
@@ -78,8 +78,8 @@ h1, h2, h3, h5 {
   background-size: cover;
   background-position: center;
   transition: all 0.2s;
-  height: 30vh;
-  width: 30vw;
+  /* height: 30vh; */
+  width: 100%;
 }
 
 .bg-image-3:hover {
